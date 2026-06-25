@@ -16,7 +16,7 @@ st.write("Upload gambar X-ray thorax untuk analisis penyakit.")
 # ==========================================================
 # LOAD MODEL
 # ==========================================================
-MODEL_PATH = "model_parurasio801010.h5"
+MODEL_PATH = "modelparu_1e-3/model_parurasio8010101e-3.h5"
 
 @st.cache_resource
 def load_model():
