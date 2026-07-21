@@ -35,7 +35,7 @@ except Exception as e:
 # ==========================================================
 # KONFIGURASI LABEL & PREPROCESS
 # ==========================================================
-class_names = ["covid", "lung normal", "lung opacity", "viral pneumonia"]
+class_names = ["covid", "lung normal", "lung opacity", "pneumonia"]
 IMG_SIZE = 224
 
 def preprocess_image(image):
